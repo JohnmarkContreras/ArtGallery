@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    scroll-behavior: smooth;
+}
+.hero{
+    min-height: 100vh;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url("img/header.jpg");
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    height: 10vh;
+}
+nav ul li{
+    display: inline-block;
+    text-align: center;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+
+nav ul li a:hover{
+    text-decoration:underline rgb(85, 129, 136);
+}
+
+.about{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgb(115, 168, 168);
+    margin: 50px;
+}
+.about .about-text{
+    display: inline block;
+    text-align: center;
+    padding: 20px;
+}
+
+.drawings {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
+
+.portrait {
+    padding: 10px;
+}
+
+.portrait img{
+    height: 300px;
+    padding: 15px;
+    border: 15px solid black;
+    border-radius: 2px;
+}
