@@ -71,6 +71,6 @@ nav ul li a:hover{
 .portrait img{
     height: 300px;
     padding: 15px;
-    border: 15px solid black;
+    border: 5px solid black;
     border-radius: 2px;
 }
